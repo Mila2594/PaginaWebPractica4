@@ -10,7 +10,7 @@
     margin: auto;
     overflow: hidden;
     background-color: #EAEAEA;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 header{
@@ -48,11 +48,12 @@ li a {
 #menu-nosotros li {
    padding:  0px 10px;
    margin-bottom: 10px;
+   border-right: 1px dashed black;
 }
 
-#menu-nosotros li:nth-child(2)  {
-    border-right: 1px dashed black;
-    border-left: 1px dashed black;
+#menu-nosotros li:last-child {
+    border-right: none;
+    
 }
 
 #menu-nosotros li:first-child {

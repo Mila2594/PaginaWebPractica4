@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-formulario.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="section1">
+                <nav>
+                    <ul id="menu-nosotros">
+                        <li>
+                            <a class=" texto-gris" href="#marcas">Marcas</a>
+                        </li>
+                        <li>
+                            <a class=" texto-gris" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class=" texto-gris" href="#nosotros">Nosotros</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul id="menu-login">
+                    <li><img src="./imagenes/call-us.png" alt="call"></li>
+                    <li class="texto-verde">(+34)902202122</li>
+                    <li><img src="./imagenes/user.png" alt="user"></li>
+                    <li>Login/Registro</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="section1" >
+                <div class="logo">
+                    <figure>
+                        <a href="./index.html"><img src="./imagenes/logo.png" alt="logo"></a>
+                    </figure>
+                    <figure>
+                        <img src="./imagenes/envio-gratis.png" alt="envio">
+                    </figure>
+                </div>
+                    
+                <ul class="cesta texto-700  texto-gris">
+                    <li>CESTA</li>
+                    <li class="image-container"></li>
+                    <li>0</li>
+                </ul>
+            </div>
+            <hr>
+        </header>
+        <nav class="menu-principal">
+            <ul>
+                <li><a class=" texto-gris" href="#">HOMBRE</a></li>
+                <li><a class=" texto-gris" href="#">MUJER</a></li>
+                <li><a class=" texto-gris" href="#">NIÑO</a></li>
+            </ul>
+        </nav>
+        <main>
+            <hr>
+            <h1>Contacto</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis consequatur dolorem error, laboriosam consectetur! Nemo rem natus quisquam. Amet exercitationem ipsa facilis sapiente ducimus recusandae itaque</p>
+
+            <div class="div-formulario">
+                <form name="Contacto" action="contacto.php" method="post" class="formulario">
+                    <input type="text" size="50" title="name" placeholder="Nombre" required class="input-text-email">
+                    <input type="email" size="30" title="correo" placeholder="Email" required class="input-text-email">
+                    <textarea name="mensaje" id="mensaje" title="mensaje" cols="50" rows="4" placeholder="Mensaje" required></textarea>
+                    <div class="div-botones">
+                        <input type="submit" title="ENVIAR" value="ENVIAR" class="boton-enviar">
+                        <input type="reset" title= "RESET" value="RESET" class="boton-reset">
+                    </div>
+    
+                </form>
+
+                <div class="div-rrss">
+                    <ul class="ul-rrss">
+                        <li class="li-direccion">Dirección</li>
+                        <li class="li-telefno">Teléfono</li>
+                        <li class="li-twiter">Twiter</li>
+                        <li class="li-facebook">Facebook</li>
+                        <li class="li-ubicacion">Ubicación</li>
+                    </ul>
+                    
+                    
+                </div>
+                
+                
+
+            </div>
+        </main>
+      
+        <footer>
+            <div class="info-footer">
+                <section class="section-logo-footer">
+                    <figure >
+                        <img class="logo-footer" src="./imagenes/logo.png" alt="logo-footer">
+                    </figure>
+                    <h2 class="texto-verde texto-10 texto-700" >¡Siguenos!</h2>
+                    <div class="section1">
+                        <div class="rrss" id="icon-face"></div>
+                        <div class="rrss" id="icon-linkedin"></div>
+                        <div class="rrss" id="icon-instagram"></div>
+                        <div class="rrss" id="icon-youtube"></div>                  
+                    </div>
+                </section>
+                <div class="info-footer" id="nosotros">
+                    <section class="info-footer-section">
+                        <h3 class="texto-10 texto-verde">Mi Otra Farmacia</h3>
+                        <ul>
+                            <li><a href="">Nosotros</a></li>
+                            <li><a href="">Proveedores</a></li>
+                            <li><a href="">Convenio Empresas</a></li>
+                            <li><a href="">Trabaja con Nosotros</a></li>
+                        </ul>
+                    </section>
+                    <section class="info-footer-section">
+                         <h3 class="texto-10 texto-verde ">Nuestro Sitio Web</h3>                        
+                        <ul>
+                            <li><a href="">Bases Legales</a></li>
+                            <li><a href="">Terminos y condiciones</a></li>
+                            <li><a href="">Política de Privacidad</a></li>
+                            <li><a href="">Uso de Cookies</a></li>
+                            <li><a href="">Cambios y Devoluciones</a></li>
+                            <li><a href="">Uso Racional de Medicamentos</a></li>
+                        </ul>
+                    </section>
+                    <section class="info-footer-section">
+                        <h3 class="texto-10 texto-verde">Servicio al Cliente</h3>
+                        <ul>
+                            <li><a href="">Contáctenos</a></li>
+                            <li><a href="">Cuéntanos tu experiencia</a></li>
+                            <li><a href="">Libro de reclamos, sugerencias y consultas</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
