@@ -11,7 +11,9 @@ La página incluye dos secciones principales:
 ## 📂 Estructura del proyecto
 - `index.html` → Página principal con información introductoria.  
 - `contacto.html` → Sección de contacto con un formulario básico.  
-- `styles.css` → Hoja de estilos para dar formato a la página.  
+- `css/` → Carpeta que contiene las hojas de estilo:  
+  - `index.css` → Estilo aplicado a la página principal.  
+  - `contacto.css` → Estilo aplicado a la página de contacto.   
 
 ## 💻 Tecnologías utilizadas
 - **HTML5**  
